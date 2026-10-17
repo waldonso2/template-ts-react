@@ -11,11 +11,11 @@ permissions:
 # Actions and the shared workflows are pinned to a commit (a tag can be moved); Dependabot keeps them current.
 jobs:
   secrets:
-    uses: waldonso2/quality-kit/.github/workflows/secrets.yml@ff5dc4b499bff64e51c73a9ba940dadc5cfc988d # v1
+    uses: waldonso2/quality-kit/.github/workflows/secrets.yml@2070c7e1ee07901a7313f6a005be303aa44acc04 # v1
   workflows:
-    uses: waldonso2/quality-kit/.github/workflows/workflows.yml@ff5dc4b499bff64e51c73a9ba940dadc5cfc988d # v1
+    uses: waldonso2/quality-kit/.github/workflows/workflows.yml@2070c7e1ee07901a7313f6a005be303aa44acc04 # v1
   dependency-review:
-    uses: waldonso2/quality-kit/.github/workflows/dependency-review.yml@ff5dc4b499bff64e51c73a9ba940dadc5cfc988d # v1
+    uses: waldonso2/quality-kit/.github/workflows/dependency-review.yml@2070c7e1ee07901a7313f6a005be303aa44acc04 # v1
 
   ci:
     runs-on: ubuntu-latest
