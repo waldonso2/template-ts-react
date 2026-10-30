@@ -17,8 +17,8 @@ jobs:
   dependency-review:
     uses: waldonso2/quality-kit/.github/workflows/dependency-review.yml@2070c7e1ee07901a7313f6a005be303aa44acc04 # v1
   security-policy:
-    # Pinned to the immutable quality-kit commit that introduced the reusable policy check.
-    uses: waldonso2/quality-kit/.github/workflows/security-policy.yml@84456079dd7f67090985a4a79daa393267670f9a
+    # Pinned to the immutable quality-kit merge commit.
+    uses: waldonso2/quality-kit/.github/workflows/security-policy.yml@11958335ff550890994a1fda5af4087839c2bf3a
 
   ci:
     runs-on: ubuntu-latest
