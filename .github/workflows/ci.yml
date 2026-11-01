@@ -18,7 +18,7 @@ jobs:
     uses: waldonso2/quality-kit/.github/workflows/dependency-review.yml@2070c7e1ee07901a7313f6a005be303aa44acc04 # v1
   security-policy:
     # Pinned to the immutable quality-kit merge commit.
-    uses: waldonso2/quality-kit/.github/workflows/security-policy.yml@11958335ff550890994a1fda5af4087839c2bf3a
+    uses: waldonso2/quality-kit/.github/workflows/security-policy.yml@30d0a41a2baf20f88d119c2e6e45752866601c4e
 
   ci:
     runs-on: ubuntu-latest
